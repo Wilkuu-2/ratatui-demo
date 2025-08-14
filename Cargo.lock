@@ -592,14 +592,12 @@ dependencies = [
 name = "ratatui-demo"
 version = "0.1.0"
 dependencies = [
- "cassowary",
  "crossterm 0.29.0",
  "futures",
  "ratatui",
  "terminput",
  "terminput-crossterm",
  "termion",
- "termios",
  "tokio",
 ]
 
@@ -794,15 +792,6 @@ dependencies = [
  "libredox",
  "numtoa",
  "redox_termios",
-]
-
-[[package]]
-name = "termios"
-version = "0.3.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "411c5bf740737c7918b8b1fe232dca4dc9f8e754b8ad5e20966814001ed0ac6b"
-dependencies = [
- "libc",
 ]
 
 [[package]]
